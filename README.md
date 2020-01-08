@@ -9,23 +9,23 @@
 
 ```swift
 let view = UIView().config
-            .frame(x: 0, y: 0, width: 100, height: 100)
-            .backgroundColor(.red)
-            .addTo(self.view)
-            .view
+       .frame(x: 0, y: 0, width: 100, height: 100)
+       .backgroundColor(.red)
+       .addTo(self.view)
+       .view
         
-        UIButton().config
-            .frame(x: 0, y: view.frame.maxY, width: 100, height: 40)
-            .title("button")
-            .titleColor(.black)
-            .addTarget(self, action: #selector(buttonClick))
-            .addTo(self.view)
+UIButton().config
+       .frame(x: 0, y: view.frame.maxY, width: 100, height: 40)
+       .title("button")
+       .titleColor(.black)
+       .addTarget(self, action: #selector(buttonClick))
+       .addTo(self.view)
         
-        UITableView.init(frame: self.view.bounds, style: .plain).config
-            .delegate(self)
-            .dataSource(self)
-            .register(UITableViewCell.self)
-            .addTo(self.view)
+UITableView.init(frame: self.view.bounds, style: .plain).config
+       .delegate(self)
+       .dataSource(self)
+       .register(UITableViewCell.self)
+       .addTo(self.view)
 ```
 
 ## Requirements
