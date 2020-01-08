@@ -1,0 +1,6 @@
+framework module WLUIBuilder {
+  umbrella header "WLUIBuilder-umbrella.h"
+
+  export *
+  module * { export * }
+}

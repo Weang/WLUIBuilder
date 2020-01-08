@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLUIBuilder_Example' do
+  pod 'WLUIBuilder', :path => '../'
+
+  target 'WLUIBuilder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_WLUIBuilder_Tests {
+  umbrella header "Pods-WLUIBuilder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

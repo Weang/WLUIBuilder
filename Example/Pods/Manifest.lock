@@ -1,0 +1,16 @@
+PODS:
+  - WLUIBuilder (0.1.0)
+
+DEPENDENCIES:
+  - WLUIBuilder (from `../`)
+
+EXTERNAL SOURCES:
+  WLUIBuilder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLUIBuilder: 180b9d8f30ccb0334e85a6a580bc71a130f6fa0c
+
+PODFILE CHECKSUM: 90ab88ef3d67fa731f589de4eb862de0fea0e34f
+
+COCOAPODS: 1.7.0
